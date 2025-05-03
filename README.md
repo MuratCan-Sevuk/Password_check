@@ -17,33 +17,8 @@ Bu program aşağıdaki şifre güvenlik kriterlerini kontrol eder:
 
 Program, şifreyi giren kullanıcıya sürekli olarak şifreyi doğrulamak için sorular sorar ve verilen şifreyi yukarıdaki kurallara göre kontrol eder. Eğer şifre geçerli değilse, kullanıcıya uygun hata mesajı verilir ve yeniden şifre girilmesi istenir. Şifre kuralları sağlandığında, kullanıcıya "Şifre başarıyla doğrulandı!" mesajı verilir ve program sonlanır.
 
-## 🖥️ **Nasıl Kullanılır**
-
-1. Kaynağı bilgisayarınıza indirin veya bu kodu bir Java dosyasına yapıştırın.
-2. `Main` sınıfındaki `checkPassword()` fonksiyonu, şifre doğrulama işlemini başlatır.
-3. `java Main` komutunu kullanarak programı çalıştırın.
-
-   ```bash
-   javac Main.java
-   java Main
-   ```
 4. Kullanıcıdan şifre girmesi istenecektir. Program, şifrenin geçerli olup olmadığını kontrol eder ve geçerli bir şifre girilene kadar devam eder.
 
-## 📝 **Örnek Çıktılar**
-
-Eğer kullanıcı geçerli bir şifre girmezse, örneğin şu çıktıyı alabilir:
-
-```bash
-Şifre girin:
-abcd
-Şifrenizde en az bir büyük harf olmalı.
-Şifre girin:
-abcd1234
-Şifrenizde en az bir özel karakter (!, /, # , . , & , $ vb.) olmalı.
-Şifre girin:
-abcd1234!
-Şifre başarıyla doğrulandı!
-```
 
 ## ⚙️ **Kullanılan Teknolojiler**
 
